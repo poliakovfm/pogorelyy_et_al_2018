@@ -50,7 +50,7 @@ def main(null_pair_1,null_pair_2,test_pair_1,test_pair_2,rootpath):
 	assert donor1==donor2, 'trying to compare data from different donors!'
 	donorstr=donor1
 
-	datarootpath='Yellow_fever/' 
+	datarootpath='/home/fedor_polyakov/YF_project/Yellow_fever/' 
 	
 	#input path    
 	datasetstr=dataset_pair[0]+'_'+dataset_pair[1] 
